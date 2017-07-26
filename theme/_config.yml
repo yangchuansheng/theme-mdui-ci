@@ -1,0 +1,131 @@
+# CDN for mathjax
+location:
+
+# style
+style:
+  scheme: 'now'
+  bg_img: /img/bg.png
+  avatar: /img/avatar.png
+  slogan: "I'm your slogan!"
+  hoverable: true
+
+# HTML head
+head:
+  favicon: /img/favicon.png
+  high_res_favicon: /img/favicon.png
+  apple_touch_icon: /img/favicon.png
+  keywords: blog, hexo, mdui
+
+# color
+color:
+  primary_color: "indigo"
+  accent_color: "blue"
+  layout:
+  random:
+  bg_color: "#eeeeee"
+
+# appbar
+appbar:
+  title: "Title"
+  search: true
+
+index:
+  welcome: "Welcome to my blog~"
+  notification: true
+
+# post settings
+post:
+  entry_excerpt: 80
+  qr_code: true
+  prism:
+    theme: 'solarizedlight'
+    line_number: 'true'
+  license:
+    name: 'CC BY-NC-SA 4.0'
+    link:  'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh'
+  word_count: true
+  read_time: true
+  donate:
+    wechat:
+      link: /img/wap.png
+      fa: 'fa-wechat'
+    paypay:
+      link: 'https://paypal.com'
+      fa: 'fa-paypal'
+
+
+share_menu:
+  rss: true
+  weibo: true
+  twitter: true
+  facebook: true
+  googleplus: true
+  linkedin: true
+  qq: true
+  telegram: true
+
+comment:
+    use:
+    shortname:
+
+# pagination
+# github@zllovesuki
+pagination: 2
+
+# footer
+footer:
+  since: 2017
+  ICP:
+  image:
+
+# Plugins
+busuanzi:
+  all_site_uv: true
+  post_pv: true
+  busuanzi_pure_mini_js: "//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+service_woker: 'pwa'
+
+about_me: true
+
+pace: false
+
+random_pics: 44
+
+pages:
+  galleries:
+    link: "/galleries"
+    md: "&#xe0ba;"
+  ca:
+    link: "/galleries/ca.html"
+    fa: "fa-child"
+  jp:
+    link: "/galleries/js.html"
+    md: "home"
+  friends:
+    cascade: true
+    md: 'home'
+    pages:
+      friends:
+        link: "/friends"
+        md: "&#xe5ca;"
+      applu-for-link:
+        link: "/applu-for-link"
+        md: "home"
+
+sns:
+  Twitter:
+    link: https://twitter.com
+    fa: 'fa-twitter'
+  Facebook:
+    link: https://facebook.com
+    null_icon: true
+
+# Vendors
+vendors:
+  fonts_min_css:
+  style_min_css:
+  js_min_js:
+  outdatedbrowser_min_js:
+  pace_min_js:
+  pace_style_css:

@@ -1,0 +1,69 @@
+slogan: true
+
+others:
+  - '1'
+  - '2'
+
+hellow:
+  main:
+    hi:
+      content: xxxxxx
+      s_img: /img/avatar.png
+    hi1:
+      content: xx
+      link: //google.com
+      s_img: /img/favicon.png
+    hi2:
+      content: aaaa
+  more:
+    hi3:
+      content: '561456415341'
+      link: //google.com
+      s_img: /img/favicon.png
+    hi4:
+      content: 'xxxxxxx'
+      s_img: /img/favicon.png
+
+hellow1:
+  main:
+    hi:
+      content: xxxxxx
+      one_line: true
+    hi1:
+      content: xx
+      fa: 'fa-beer'
+    工作經歷:
+      content: xxxx
+      content_1: Designer & Developer，2222
+  more:
+    hi3:
+      content: '1111'
+      one_line: true
+      s_img: /img/favicon.png
+    hi4:
+      content: '1111'
+      one_line: true
+      c_img: /img/favicon.png
+
+hellow2:
+  main:
+    hi:
+      content: xxxxxx
+      one_line: true
+      md: 'home'
+    hi1:
+      content: xx
+      link: 'xxxx/xxx'
+      fa: 'fa-beer'
+    工作經歷:
+      content: xxxx
+      content_1: Designer & Developer，2222
+  more:
+    hi3:
+      content: '1111'
+      one_line: true
+      null_icon: true
+    hi4:
+      content: '1111'
+      one_line: true
+      fa: 'fa-qq'
